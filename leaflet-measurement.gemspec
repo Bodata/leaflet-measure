@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'leaflet-measurement/version'
+require 'leaflet-measure/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "leaflet-measurement"
-  spec.version       = Leaflet::Measurement::VERSION
+  spec.name          = "leaflet-measure"
+  spec.version       = Leaflet::Measure::VERSION
   spec.authors       = ["Bodata"]
   spec.email         = ["github@bodata.nl"]
 
-  spec.summary       = %q{Leaflet measurement plugin voor rails}
-  spec.description   = %q{Intergrates the leaflet measurement plugin with the Rails assets pipeline}
-  spec.homepage      = "https://github.com/bodata/leaflet-measurement"
+  spec.summary       = %q{Leaflet measure plugin voor rails}
+  spec.description   = %q{Intergrates the leaflet measure plugin with the Rails assets pipeline}
+  spec.homepage      = "https://github.com/bodata/leaflet-measure"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

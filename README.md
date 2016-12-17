@@ -1,6 +1,6 @@
-# Leaflet::Measurement
+# Leaflet::Measure
 
-This is a gem to add the measurements plugin for leaflet to a rails project.
+This is a gem to add the measure plugin for leaflet to a rails project.
 
 It does not have any additions, just makes the code available to the assets pipeline.
 
@@ -9,7 +9,7 @@ It does not have any additions, just makes the code available to the assets pipe
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'leaflet-measurement'
+gem 'leaflet-measure'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install leaflet-measurement
+    $ gem install leaflet-measure
 
 ## Usage
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/leaflet-measurement.
+Bug reports and pull requests are welcome on GitHub at https://github.com/bodata/leaflet-measure.
 
 
 ## License

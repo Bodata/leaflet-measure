@@ -6920,7 +6920,7 @@ module.exports = {
 
 },{}],41:[function(require,module,exports){
 (function (global){
-// leaflet-measurement-measure.js
+// leaflet-measure-measure.js
 
 var _ = require('underscore');
 var L = (typeof window !== "undefined" ? window['L'] : typeof global !== "undefined" ? global['L'] : null);
@@ -6963,7 +6963,7 @@ var i18n = new (require('i18n-2'))({
 });
 
 L.Control.Measure = L.Control.extend({
-  _className: 'leaflet-measurement-control-measure',
+  _className: 'leaflet-measure-control-measure',
   options: {
     units: {},
     position: 'topright',
@@ -6973,8 +6973,8 @@ L.Control.Measure = L.Control.extend({
     activeColor: '#ABE67E',     // base color for map features while actively measuring
     completedColor: '#C8F2BE',  // base color for permenant features generated from completed measure
     captureZIndex: 10000,       // z-index of the marker used to capture measure events
-    popupOptions: {             // standard leaflet-measurement popup options http://leafletjs.com/reference.html#popup-options
-      className: 'leaflet-measurement-measure-resultpopup',
+    popupOptions: {             // standard leaflet-measure popup options http://leafletjs.com/reference.html#popup-options
+      className: 'leaflet-measure-measure-resultpopup',
       autoPanPadding: [10, 10]
     }
   },
@@ -7007,7 +7007,7 @@ L.Control.Measure = L.Control.extend({
       i18n: i18n
     });
 
-    // copied from leaflet-measurement
+    // copied from leaflet-measure
     // https://bitbucket.org/ljagis/js-mapbootstrap/src/4ab1e9e896c08bdbc8164d4053b2f945143f4f3a/app/components/measure/leaflet-measure-control.js?at=master#cl-30
     container.setAttribute('aria-haspopup', true);
     if (!L.Browser.touch) {
