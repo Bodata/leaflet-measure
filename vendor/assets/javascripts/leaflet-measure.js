@@ -6963,7 +6963,7 @@ var i18n = new (require('i18n-2'))({
 });
 
 L.Control.Measure = L.Control.extend({
-  _className: 'leaflet-measure-control-measure',
+  _className: 'leaflet-control-measure',
   options: {
     units: {},
     position: 'topright',
