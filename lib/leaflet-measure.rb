@@ -1,10 +1,8 @@
 require "leaflet-measure/version"
 
-module Leaflet
-  module Measure
+module LeafletMeasure
     module Rails
-      class Engine < ::Rails::Engine
+      class Engine < Rails::Engine
       end
     end
-  end
 end

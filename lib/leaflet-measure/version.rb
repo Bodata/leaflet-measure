@@ -1,5 +1,3 @@
-module Leaflet
-  module Measure
-    VERSION = "0.1.0"
-  end
+module LeafletMeasure
+   VERSION = "0.2.0"
 end
