@@ -1,0 +1,18 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   .idea/leaflet-measurement.iml
+#	new file:   .idea/modules.xml
+#	new file:   .idea/vcs.xml
+#	new file:   .idea/workspace.xml
+#
+# Changes not staged for commit:
+#	modified:   .idea/modules.xml
+#	modified:   .idea/workspace.xml
+#	modified:   lib/leaflet-measure.rb
+#
+
